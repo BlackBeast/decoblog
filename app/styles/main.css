@@ -1,0 +1,98 @@
+main {
+    box-sizing: border-box;
+    margin: 0 53px;
+}
+
+.main-contents {
+    width: 100%;
+    min-width: 903px;
+    clear: both;
+    position: relative;
+    bottom: 200px;
+    margin-top: 60px;
+}
+
+.main-wrapper {
+    width: 75%;
+    float: left;
+}
+
+.article h1 {
+  text-align: center;
+  padding: 40px 0px 20px 0px;
+  font-size: 28px;
+  margin: 0;
+}
+
+.article img {
+  width: 100%;
+  height: 500px;
+}
+.article p {
+  padding: 0 60px;
+}
+.article .button {
+  background: none;
+  width: 130px;
+  border-left: 1px solid #d8d7d7;
+  border-right: 1px solid #d8d7d7;
+  color:inherit;
+  margin-bottom: 20px;
+}
+.article .bottom-bar {
+  border-top: 1px solid #d8d7d7;
+  height: 80px;
+}
+
+.story {
+  padding: 0 25px;
+  text-align: center;
+}
+
+.img-gallery {
+  height: 560px;
+  background-color: #999999;
+}
+
+.gallery-post>.story {
+  background-color: #FFFFFF;
+}
+.aside-wrapper {
+    width: 23%;
+    background-color: #FFFFFF;
+    float: right;
+}
+
+.aside-container {
+  padding: 20px;
+}
+
+.aside-container input {
+  outline:none;
+  width: 100%;
+}
+
+.aside-container img {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.aside-container h1 {
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 20px;
+  border-bottom: 1px solid #d8d7d7;
+}
+
+.catagories ul {
+  padding: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d8d7d7;
+  font-family: "Hind";
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.aside-container .small-img {
+  height: 300px;
+}

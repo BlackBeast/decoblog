@@ -6,16 +6,18 @@
     <link rel="stylesheet" type="text/css" href="./styles/style.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </head>
-  <script>
-    $(function(){
-      $('.header').load("../components/header.html");
-      $('.subscription').load("../components/subscription.html");
-      $('.footer').load("../components/footer.html");
+<script>
+    $(function() {
+        $('.header').load("../components/header.html");
+        $('.subscription').load("../components/subscription.html");
+        $('.main').load("../components/main.html");
+        $('.footer').load("../components/footer.html");
     });
-  </script>
+</script>
   <body>
-    <header class="header"></header>
+    <div class="header"></div>
     <div class="subscription"></div>
-    <footer class="footer"></footer>
+    <div class="main"></div>
+    <div class="footer"></div>
   </body>
 </html>
