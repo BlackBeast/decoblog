@@ -4,20 +4,177 @@
     <meta charset="utf-8">
     <title>DECO BLOG</title>
     <link rel="stylesheet" type="text/css" href="./styles/style.css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+      document.createElement('header');
+      document.createElement('footer');
+      document.createElement('nav');
+      document.createElement('article');
+      document.createElement('section');
+      document.createElement('aside');
+      document.createElement('main');
+    </script>
   </head>
-<script>
-    $(function() {
-        $('.header').load("../components/header.html");
-        $('.subscription').load("../components/subscription.html");
-        $('.main').load("../components/main.html");
-        $('.footer').load("../components/footer.html");
-    });
-</script>
   <body>
-    <div class="header"></div>
-    <div class="subscription"></div>
-    <div class="main"></div>
-    <div class="footer"></div>
+    <header class="header">
+        <div class="wrapper">
+            <nav class="nav menu-nav">
+                E
+            </nav>
+            <nav class="nav sub-nav">
+                tw
+            </nav>
+            <div class="blog-title">
+                <img src="./static/images/deco_logo.png">
+            </div>
+        </div>
+    </header>
+    <section class="feature">
+      <div class="half-background"></div>
+      <section class="subscription-wrapper">
+        <article class="articles">
+          <img src="./static/images/workout.jpg" alt="">
+        </article>
+        <div class="sign-up">
+          <div class="label">Signup to Newsletter</div >
+          <div class="inputs">
+            <input type="text" placeholder="YOUR NAME">
+            <input type="email" placeholder="YOUR EMAIL ADDRESS">
+          </div>
+          <input class="button" type="submit" value="SUBSCRIBE NOW">
+        </div>
+      </section>
+    </section>
+    <main>
+        <div class="main-contents">
+            <section class="main-wrapper">
+                <div class="image-post article">
+                  <img src="./static/images/img1.jpg">
+                  <div class="story">
+                    <h1>BE THE ONE TO STAND OUT IN THE CROWD</h1>
+                    <p>
+                      In an overcrowded, hypercompetitive world,
+                      the only way to make an impression on your prospect is to break through the noise.
+                      “The formula of telling everybody how great you are with your state-of-the-art solutions,
+                      commitment to customer service, and best prices in town just won’t cut it,”
+                      says marketing expert Lauron Sonnier, author of Think Like a Marketer.
+                      The first step is getting clear on what you want. How do you want to be perceived?
+                      Who is your ideal customer?
+                      How do you define success today and tomorrow?
+                      Once you know what you want,
+                      you must take deliberate action in a constant and consistent manner.
+                            </p>
+                    <button class="button" type="button" >READ MORE</button>
+                    <div class="bottom-bar">
+
+                    </div>
+                  </div>
+                </div>
+                <div class="gallery-post article">
+                  <div class="img-gallery">
+                  </div>
+                  <div class="story">
+                    <h1>FASHION AND ADVENTURE IN WORLD</h1>
+                    <p>
+                      In an overcrowded, hypercompetitive world,
+                      the only way to make an impression on your prospect is to break through the noise.
+                      “The formula of telling everybody how great you are with your state-of-the-art solutions,
+                      commitment to customer service, and best prices in town just won’t cut it,”
+                      says marketing expert Lauron Sonnier, author of Think Like a Marketer.
+                      The first step is getting clear on what you want. How do you want to be perceived?
+                      Who is your ideal customer?
+                      How do you define success today and tomorrow?
+                      Once you know what you want,
+                      you must take deliberate action in a constant and consistent manner.
+                            </p>
+                    <button class="button" type="button" >READ MORE</button>
+                    <div class="bottom-bar">
+
+                    </div>
+                  </div>
+                </div>
+            </section>
+            <section class="aside-wrapper">
+              <aside class="aside-container">
+                  <input type="text" placeholder="Search">
+                  <img src="./static/images/lazar.png">
+                  <div class="catagories">
+                    <h1>CATAGORIES</h1>
+                      <ul>
+                        LIFESTYLE
+                      </ul>
+                      <ul>
+                        AUDIO
+                      </ul>
+                      <ul>
+                        GALLERY
+                      </ul>
+                      <ul>
+                        IMAGE
+                      </ul>
+                      <ul>
+                        STANDARD
+                      </ul>
+                      <ul>
+                        STATUS
+                      </ul>
+                      <ul>
+                        VIDEO
+                      </ul>
+                  </div>
+                  <img class="small-img" src="./static/images/quote.jpg">
+                  <div class="latest-post">
+                    <h1>LATEST POST</h1>
+                  </div>
+              </aside>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <section class="about">
+                <h1>ABOUT BLOG</h1>
+                <p> This is just to show some text on the about section . Just a sample paragraph ;-) </p>
+                <div class="signature">
+                    Ashwin Kumar K A
+                </div>
+            </section>
+            <section class="tweets">
+                <h1>LATEST TWEETS</h1>
+                <li>@Twitter@magicalrebekah
+                    <p>This is the tweet message which is about the blog. Super!!!!</p>
+                </li>
+                <li>@Twitter@magicalrebekah
+                    <p>This is the tweet message which is about the blog. Super!!!!</p>
+                </li>
+            </section>
+            <section class="follow">
+                <h1>FOLLOW ME INSTAGRAM</h1>
+                <div class="wrapper_div">
+                    <div class="row1">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="row2">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </section>
+            <section class="comments">
+                <h1>LATEST COMMENT</h1>
+                <ul>From ALEX :
+                    <p>This is the latest comment which is published about the blog. Super!!!!</p>
+                </ul>
+                <ul>From JOHN DOE :
+                    <p>This is the latest comment which is published about the blog. Super!!!!</p>
+                </ul>
+            </section>
+        </div>
+        <div class="copy-right">
+            @2015 COPYRIGHT .ALL RIGHT RESERVED BY AWESOME THEME | TERMS POLICY | DISCLAIMER
+        </div>
+    </footer>
   </body>
 </html>

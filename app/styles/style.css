@@ -14,4 +14,283 @@ body {
     height: 100%;
     font-family: "Montserrat";
     overflow: auto;
+    min-width: 1024px;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #212429;
+  color:#fff;
+}
+
+.wrapper {
+  margin: 0 53px;
+}
+
+.blog-title {
+  text-align: center;
+  border: 1px solid #3C3C3C;
+  border-top: 0;
+  border-bottom: 0;
+  padding: 15px 20px 7px 20px;
+}
+
+.nav {
+  padding: 18px 20px;
+}
+
+.menu-nav {
+  border-right: 1px solid #3C3C3C;
+  /*height: 100%;*/
+  float: left;
+}
+
+.sub-nav {
+  border-left: 1px solid #3C3C3C;
+  /*height: 100%;*/
+  float: right;
+}
+
+.feature {
+  width: 100%;
+  height: 680px;
+}
+
+.half-background {
+  height: 286px;
+  background-color: #212429;
+}
+
+/*.articles {
+  height: 580px;
+  margin: 0 53px;
+}*/
+
+.articles>img {
+    height: 580px;
+    width: 100%;
+    padding: 0 53px;
+}
+
+.sign-up {
+  height: 100px;
+  background-color: #F7F7F7;
+  padding: 25px;
+  margin: 0 53px;
+}
+
+.subscription-wrapper {
+    position: relative;
+    bottom: 286px;
+}
+
+.label {
+  font-family: 'Montserrat';
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  width: 16%;
+  letter-spacing: 3px;
+  padding-left: 10px;
+}
+
+.inputs {
+  font-family: 'Hind';
+  height: 100%;
+  float: left;
+  width: 63%;
+  padding-left: 15px;
+}
+
+input {
+  padding: 15px;
+  font-size: 15px;
+  font-weight: lighter;
+  width: 49%;
+}
+
+.button {
+  background-color: #212121;
+  border: none;
+  color: white;
+  width: 20%;
+  height: 100%;
+  font-size: 16px;
+}
+
+main {
+    box-sizing: border-box;
+    margin: 0 53px;
+}
+
+.main-contents {
+    width: 100%;
+    min-width: 903px;
+    clear: both;
+    position: relative;
+    bottom: 200px;
+    margin-top: 60px;
+}
+
+.main-wrapper {
+    width: 75%;
+    float: left;
+}
+
+.article h1 {
+  text-align: center;
+  padding: 40px 0px 20px 0px;
+  font-size: 28px;
+  margin: 0;
+}
+
+.article img {
+  width: 100%;
+  height: 500px;
+}
+.article p {
+  padding: 0 60px;
+}
+.article .button {
+  background: none;
+  width: 130px;
+  border-left: 1px solid #d8d7d7;
+  border-right: 1px solid #d8d7d7;
+  color:inherit;
+  margin-bottom: 20px;
+}
+.article .bottom-bar {
+  border-top: 1px solid #d8d7d7;
+  height: 80px;
+}
+
+.story {
+  padding: 0 25px;
+  text-align: center;
+}
+
+.img-gallery {
+  height: 560px;
+  background-color: #999999;
+}
+
+.gallery-post>.story {
+  background-color: #FFFFFF;
+}
+.aside-wrapper {
+    width: 23%;
+    background-color: #FFFFFF;
+    float: right;
+}
+
+.aside-container {
+  padding: 20px;
+}
+
+.aside-container input {
+  outline:none;
+  width: 100%;
+}
+
+.aside-container img {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.aside-container h1 {
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 20px;
+  border-bottom: 1px solid #d8d7d7;
+}
+
+.catagories ul {
+  padding: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d8d7d7;
+  font-family: "Hind";
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.aside-container .small-img {
+  height: 300px;
+}
+
+footer {
+  overflow: hidden;
+  background-color: #212429;
+  height: 400px;
+  width:100%;
+	position:relative;
+	bottom:0;
+	left:0;
+}
+
+.footer-content {
+  height: 360px;
+  padding: 15px 25px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.footer-content>section {
+  float: left;
+  width: 25%;
+  height: 100%;
+  padding: 15px;
+  color: #F9F9FB;
+  /*min-width: 243px;*/
+}
+
+section>h1{
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Hind';
+  font-size: 14;
+  font-weight: lighter;
+}
+
+.signature {
+  height: 158px;
+  text-align: end;
+  padding: 100px 10px 0 10px;
+  background-color: #3A3C49;
+}
+
+section>li,section>ul {
+  line-height: 20px;
+  padding-top: 4px;
+  padding-left: 0px;
+}
+.wrapper_div {
+    height: 200px;
+}
+
+.row1,.row2 {
+  height: 50%;
+  padding-top: 5px;
+}
+
+.row1>div,.row2>div {
+  background-color: white;
+  width: 32%;
+  height: 100%;
+  display: inline-block;
+}
+
+.copy-right {
+  font-family:'Hind';
+  font-weight: 200;
+  font-size: 14px;
+  height: 40px;
+  width: 100%;
+  color: #747577;
+  background-color: #17191C;
+  text-align: center;
+  padding-top: 12px;
 }
