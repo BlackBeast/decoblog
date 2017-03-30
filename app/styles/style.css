@@ -216,6 +216,9 @@ main {
   border-bottom: 1px solid #d8d7d7;
 }
 
+.tweets li {
+  list-style-image: url('../static/images/twitter.png');
+}
 .catagories ul {
   padding: 0;
   padding-bottom: 10px;
@@ -253,7 +256,6 @@ footer {
   height: 100%;
   padding: 15px;
   color: #F9F9FB;
-  /*min-width: 243px;*/
 }
 
 section>h1{
