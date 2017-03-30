@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>DECO BLOG</title>
     <link rel="stylesheet" type="text/css" href="../styles/style.css"/>
-    <link rel="stylesheet" type="text/css" href="../styles/image-post.css"/>
+    <link rel="stylesheet" type="text/css" href="../styles/contact-page.css"/>
     <script>
       document.createElement('header');
       document.createElement('footer');
@@ -19,7 +19,7 @@
     <header >
         <div class="wrapper">
             <nav class="nav menu-nav">
-              <a href="./contact-page.html">
+              <a href="./components/contact-page.html">
                 <img src="../static/images/menu-icon.png">
               </a>
             </nav>
@@ -45,93 +45,43 @@
             </div>
         </div>
     </header>
-    <section class="feature">
-      <div class="half-background"></div>
-      <section class="subscription-wrapper">
-        <article class="articles">
-          <img src="../static/images/Header-banner.png" alt="">
-        </article>
-        <div class="sign-up">
-          <div class="label">Signup to Newsletter</div >
-          <div class="inputs">
-            <input type="text" placeholder="YOUR NAME">
-            <input type="email" placeholder="YOUR EMAIL ADDRESS">
-          </div>
-          <input class="button" type="submit" value="SUBSCRIBE NOW">
-        </div>
-      </section>
-    </section>
     <main>
-        <div class="main-contents">
+        <div class="main-contents contact">
             <section class="main-wrapper">
-                <div class="image-post article">
-                  <img src="../static/images/workout.jpg">
-                  <div class="story">
-                    <h1>BE THE ONE TO STAND OUT IN THE CROWD</h1>
-                    <p>
-                      In an overcrowded, hypercompetitive world,
-                      the only way to make an impression on your prospect is to break through the noise.
-                      “The formula of telling everybody how great you are with your state-of-the-art solutions,
-                      commitment to customer service, and best prices in town just won’t cut it,”
-                      says marketing expert Lauron Sonnier, author of Think Like a Marketer.
-                      The first step is getting clear on what you want. How do you want to be perceived?
-                    </p>
-                    <p>
-                      Who is your ideal customer?
-                    </p>
-                    <p>
-                      Once you know what you want,
-                      you must take deliberate action in a constant and consistent manner.
-                    </p>
-                    <p>
-                      How do you define success today and tomorrow?
-                    </p>
-                    <p>
-                      In an overcrowded, hypercompetitive world,
-                      the only way to make an impression on your prospect is to break through the noise.
-                      “The formula of telling everybody how great you are with your state-of-the-art solutions,
-                      commitment to customer service, and best prices in town just won’t cut it,”
-                      says marketing expert Lauron Sonnier, author of Think Like a Marketer.
-                      The first step is getting clear on what you want. How do you want to be perceived?
-                    </p>
-                    <p>
-                      Once you know what you want,
-                      you must take deliberate action in a constant and consistent manner.
-                    </p>
-                    <div class="bottom-bar">
-
-                    </div>
+              <div class="contact-wrapper">
+                <div class="contact-information">
+                  <div class="location">
+                    <img src="../static/images/map.png" alt="">
                   </div>
+                  <div class="info">
+                    <h1>CONTACT INFORMATION</h1>
+                    <p>In case if you have any questions popped up in your mind email us or even visit us. Incase if you have any questions popped up in your mind email us or even visit us.</p>
+                    <span>
+                      <img src="../static/images/home-icon.png" alt="">
+                      Address: 123 Street Name, City Name, India.
+                    </span>
+                    <span>
+                      <img src="../static/images/mail-icon.png" alt="">
+                      Email: info@lifestyle.com
+                    </span>
+                    <span>
+                      <img src="../static/images/network-icon.png" alt="">
+                      www.lifestyle.com
+                    </span>
+                  </div>
+                  <form class="message-form" action="index.html" method="post">
+                    <input class="name" placeholder="YOUR NAME"type="text" name="" value="">
+                    <input class="email-address" placeholder="YOUR EMAIL ADDRESS"type="text" name="" value="">
+                    <input class="web-address" placeholder="WEBITE ADDRESS"type="text" name="" value="">
+                    <textarea class="message" placeholder="PLEASE WRITE A MESSAGE HERE"></textarea>
+                    <input class="msg-button" type="submit" value="SEND MESSAGE">
+                  </form>
                 </div>
+              </div>
             </section>
             <section class="aside-wrapper">
               <aside class="aside-container">
                   <input type="text" placeholder="Search">
-                  <img src="../static/images/sidebar-top2.png">
-                  <div class="catagories">
-                    <h1>CATAGORIES</h1>
-                      <ul>
-                        LIFESTYLE
-                      </ul>
-                      <ul>
-                        AUDIO
-                      </ul>
-                      <ul>
-                        GALLERY
-                      </ul>
-                      <ul>
-                        IMAGE
-                      </ul>
-                      <ul>
-                        STANDARD
-                      </ul>
-                      <ul>
-                        STATUS
-                      </ul>
-                      <ul>
-                        VIDEO
-                      </ul>
-                  </div>
                   <img class="small-img" src="../static/images/sidebar-mid.png">
                   <div class="latest-post">
                     <h1>LATEST POST</h1>
@@ -140,7 +90,7 @@
             </section>
         </div>
     </main>
-    <footer>
+    <footer class="footer">
         <div class="footer-content">
             <section class="about">
                 <h1>ABOUT BLOG</h1>
