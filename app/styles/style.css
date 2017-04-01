@@ -226,8 +226,11 @@ main {
 }
 
 .aside-container input {
-  outline:none;
   width: 100%;
+}
+
+input:focus {
+  outline: none;
 }
 
 .aside-container img {
